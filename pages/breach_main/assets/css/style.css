@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* HEADER */
+
+.main_header {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     background-color: #1a1919;
+     z-index: 3;
+}
+
+.header {
+     margin: 0;
+     padding: 1rem;
+     width: 150vh;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+   
+   .logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     padding: 0;
+   }
+   
+   .legenx_logo {
+     width: 10rem;
+   }
+   
+   .choices {
+     display: flex;
+     align-items: center;
+     padding-left: 2rem;
+     padding-right: 2rem;
+   }
+   
+   .buttons {
+     color: aliceblue;
+     text-decoration: none;
+     font-weight: 900;
+     padding-left: 2rem;
+     padding-right: 2rem;
+     transition: all ease .2s;
+     font-family: urbanist;
+   }
+   
+   /* HEADER ANIMATIONS */
+   
+   .buttons:hover {
+     font-size: 2rem;
+     transform: scale(1.2);
+         filter: drop-shadow(0 0 10px white);
+   }
+
+   
+
+
+   .main_body{
+     background-color:#0f0f0f;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+   }
+
+
+/* BODY */
+
+.hero {
+     height: 100dvh;
+     width: 100dvw;
+     position: relative;
+     background-image: linear-gradient(to right top, hsla(0, 0%, 3%, 0.932), #310202);
+     position: absolute;
+     z-index: 2;
+     right: 0;
+     top: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.fluid {
+     position: relative;
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     z-index: -2;
+     opacity: 70%;
+     right: 0;
+     top: 0;
+     height: 100dvh;
+     width: 100dvw;
+     filter: blur(5px);
+     -webkit-filter: blur(5px);
+}
+
+.breach_background {
+     z-index: -3;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+}
+
+.breach_spray {
+     z-index: 5;
+     display: flex;
+     justify-content:flex-end;
+     position: absolute;
+     width: 20rem;
+     position: fixed;
+}
+
+.content {
+     display: flex;
+     flex-direction: row;
+     padding: 30rem;
+}
+
+.background {
+     margin: 0;
+}
+
+.breach {
+     width: 60rem;
+     padding:0;
+     margin: 0;
+}
+
+.description {
+     display: flex;
+     justify-content: center;
+     padding: 5rem;
+     flex-direction: column;
+}
+
+.title{
+     color: rgb(255, 250, 239);
+     font-size: 5vw;
+     font-family: Anton;
+     font-weight: 900;
+     font-style: italic;
+     margin: 0;
+     color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 42px rgb(199, 140, 13);
+}
+
+.rolelogo {
+     width: 2rem;
+     padding-right: 10px;
+}
+
+.role {
+     font-family: Urbanist;
+     font-size: 30px;
+     color: rgb(255, 250, 239);
+     font-style: italic;
+     font-weight: 800;
+     margin: 0;
+     text-shadow:
+     0 0 7px #fff,
+     0 0 42px rgb(199, 140, 13);
+}
+
+.info {
+     font-family: Urbanist;
+     font-size: 30px;
+     color: rgb(255, 250, 239);
+     font-style: italic;
+     font-weight: 500;
+     margin: 0;
+     text-shadow:
+     0 0 7px #fff,
+     0 0 42px rgb(199, 140, 13);
+}
+
+.skills {
+     display: flex;
+     flex-direction: row;
+}
+
+.utils {
+     width: 6rem;
+     padding-left: 2rem;
+     padding-right: 2rem;
+}
+
+/* SECTION 2 */
+
+.section_fix {
+          position: relative;
+          z-index: -1;
+          background-color: rgb(10, 10, 20);
+          max-height: 100%;
+          min-width: 100%;
+}
+
+.description_container_fix {
+     height: 80dvh;
+}
+
+.section2 {
+     position: relative;
+     z-index: 4;
+     background-color: rgb(10, 10, 20);
+     max-height: 100%;
+     min-width: 100%;
+   }
+
+   .maps_container1 {
+     display: flex;
+     padding: 10rem;
+     justify-content: space-around;
+   }
+
+   .description_container {
+     color: aliceblue;
+     font-size: 2rem;
+     position:relative;
+       height: 50dvh;
+       display: flex;
+       width: 100%;
+       align-items: center;
+       justify-content: center;
+       margin: 0;
+   }
+   
+   .map_title {
+     font-family: anton;
+     font-weight: 600;
+     font-size: 10rem;
+     margin: 0;
+     color: rgb(219, 87, 87);
+   }
+
+   .bind_size {
+     width: 80rem;
+     border-radius: 1rem;
+   }
+
+
+
+/* SECTION 3 */
+
+.section3 {
+     position: relative;
+     z-index: 4;
+     background-color: rgb(10, 10, 20);
+     max-height: 100%;
+     min-width: 100%;
+}
+
+.utility_container {
+     display: flex;
+     padding-left: 10rem;
+     padding-right: 10rem;
+     justify-content: space-around;
+     padding-bottom: 10rem;
+   }
+
+.utilities_card {
+     border-style: solid;
+     border-color: orange;
+     background-color: rgb(29, 23, 11);
+     border-radius: 2rem;
+     padding: 2rem;
+     transition: all ease-in .2s;
+}
+
+.utilities_card:hover {
+     transform: scale(1.3);
+     box-shadow: 0 0 100px orange;
+     background: rgb(219, 190, 63);
+}
+
+.utilities {
+     font-family: anton;
+     font-size: 1.5rem;
+     text-align: center;
+     color: aliceblue;
+     margin: 0;
+}
+
+@keyframes shake {
+     0% { transform: translate(1px, 1px) rotate(0deg); }
+     10% { transform: translate(-1px, -2px) rotate(-1deg); }
+     20% { transform: translate(-3px, 0px) rotate(1deg); }
+     30% { transform: translate(3px, 2px) rotate(0deg); }
+     40% { transform: translate(1px, -1px) rotate(1deg); }
+     50% { transform: translate(-1px, 2px) rotate(-1deg); }
+     60% { transform: translate(-3px, 1px) rotate(0deg); }
+     70% { transform: translate(3px, 1px) rotate(-1deg); }
+     80% { transform: translate(-1px, -1px) rotate(1deg); }
+     90% { transform: translate(1px, 2px) rotate(0deg); }
+     100% { transform: translate(1px, -2px) rotate(-1deg); }
+   }
+
+.utility_resize {
+     width: 15rem;
+}
+
+.utility_resize:hover {
+     animation: shake 0.5s;
+     animation-iteration-count: infinite;
+}
+
+/*SECTION 4*/
+
+.section4 {
+
+     position: relative;
+     z-index: 3;
+     background-color: rgb(10, 10, 20);
+     max-height: 100%;
+     min-width: 100%;
+     padding-left: 3rem;
+   }
+   
+   .maps_container4 {
+     display: flex;
+     padding: 10rem;
+     justify-content: space-around;
+   }
+   
+   .maps_container4 {
+     display: flex;
+     padding: 10rem;
+     justify-content:space-around;
+     flex-direction:row-reverse;
+   }
+   
+   .description_container4 {
+     color: aliceblue;
+     font-size: 2rem;
+     padding: 7rem;
+     padding-right: 20rem;
+   }
+   
+   .map_title4 {
+     font-family: anton;
+     font-weight: 600;
+     font-size: 10rem;
+     margin: 0;
+     color: rgb(216, 157, 48);
+   }
+   
+   .description4 {
+     font-family: urbanist;
+     font-weight: 400;
+     font-style: italic;
+   }
+   
+   .bind_size4 {
+     width: 80rem;
+     border-radius: 1rem;
+   }
+
+/* SECTION 5 */
+
+.video {
+     border-radius: 2rem;
+     box-shadow: 0 0 150px orange;
+}
+
+.maps_container5 {
+     display: flex;
+     padding: 10rem;
+     justify-content:space-around;
+   }
+
+
+/* SECTION 6 */
+
+.cosmetics_container {
+     display: flex;
+     align-items: center;
+     align-content: center;
+     justify-content: space-around;
+     padding-bottom: 10rem;
+}
+
+
+
+
+
+
+
+   /* FOOTER */
+
+.footer_color {
+     background-color: #1a1919;
+   }
+   
+   .footer_container {
+     display: flex;
+     align-content: center;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+   }
+   
+   .icons_container {
+     padding-top: 5rem;
+   }
+   
+   .icons_resize {
+     width: 50px;
+     padding-left: 10px;
+     padding-right: 10px;
+     transition: all ease-in .3s;
+   }
+   
+   .icons_resize:hover {
+   padding: 1rem;
+   }
+   
+   .logo_resize {
+     width: 400px;
+   }
+   
+   .footer_copyright {
+   }
+   
+   .copyright {
+     font-family: urbanist;
+     font-weight: 100;
+     font-size: 2rem;
+     color: aliceblue;
+     margin: 0;
+     text-align: center;
+   }
+   
+   .copyright2 {
+     font-family: urbanist;
+     font-weight: 200;
+     font-size: 1rem;
+     color: aliceblue;
+     margin: 5px;
+     text-align: center;
+   }
+
+
+
+
