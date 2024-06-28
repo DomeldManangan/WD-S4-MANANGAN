@@ -64,6 +64,7 @@ The project shows how to code HTML and CSS for display website which shows any k
 <!-- The following are just sample -->
 - Animated website
 - Hover animations
+- Feature Website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -113,3 +114,5 @@ WD-ProjectName
 | W3Shools | HTML & CSS | https://www.w3schools.com |
 | Pexels | Wallpaper | https://www.pexels.com |
 | Valorant | Info | https://valorant.fandom.com/wiki/VALORANT_Wiki |
+| Valorant | 2nd Info | https://playvalorant.com/ |
+| Freepik | Icons | https://www.freepik.com/ |
