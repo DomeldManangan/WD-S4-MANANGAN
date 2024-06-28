@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* HEADER */
+
+.main_header {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     background-color: #1a1919;
+     z-index: 3;
+}
+
+.header {
+     margin: 0;
+     padding: 1rem;
+     width: 150vh;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+   
+   .logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     padding: 0;
+   }
+   
+   .legenx_logo {
+     width: 10rem;
+   }
+   
+   .choices {
+     display: flex;
+     align-items: center;
+     padding-left: 2rem;
+     padding-right: 2rem;
+   }
+   
+   .buttons {
+     color: aliceblue;
+     text-decoration: none;
+     font-weight: 900;
+     padding-left: 2rem;
+     padding-right: 2rem;
+     transition: all ease .2s;
+     font-family: urbanist;
+   }
+   
+   /* HEADER ANIMATIONS */
+   
+   .buttons:hover {
+     font-size: 2rem;
+     transform: scale(1.2);
+         filter: drop-shadow(0 0 10px white);
+   }
+
+   
+
+/* BODY */
+
+.body_color{
+  color: #1a1919;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.section1  {
+     height: 100dvh;
+     width: 100dvw;
+     position: absolute;
+     right: 0;
+     top: 0;
+}
+
+.hero {
+
+}
+
+.title {
+     font-family: Anton;
+     color:aliceblue;
+     font-weight: 800;
+     font-size: 15rem;
+     text-align: center;
+     margin: 0;
+     padding: 0%;
+}
+
+
+.video_container {
+  position:absolute;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.tittle_container {
+  max-height: 100%;
+  min-width: 100%;
+  position:relative;
+    height: 100dvh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+  top: 0;
+  left: 0;
+  max-height: 100%;
+  min-width: 100%;
+  align-content: center;
+  border-style: solid;
+  border-color: green;
+  -webkit-filter: blur(10px);
+  -webkit-filter: brightness(70%);
+}
+
+
+/* SECTION 2 */
+
+.section2 {
+
+  position: relative;
+  z-index: 3;
+  background-color: rgb(10, 10, 20);
+  max-height: 100%;
+  min-width: 100%;
+}
+
+.maps_container1 {
+  display: flex;
+  padding: 10rem;
+  justify-content: space-around;
+}
+
+.maps_container2 {
+  display: flex;
+  padding: 10rem;
+  justify-content:space-around;
+  flex-direction:row-reverse;
+}
+
+.description_container {
+  color: aliceblue;
+  font-size: 2rem;
+  padding: 7rem;
+  padding-right: 20rem;
+}
+
+.map_title {
+  font-family: anton;
+  font-weight: 600;
+  font-size: 10rem;
+  margin: 0;
+  color: rgb(219, 87, 87);
+}
+
+.description {
+  font-family: urbanist;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bind_size {
+  width: 80rem;
+  border-radius: 1rem;
+}
+
+/* FOOTER */
+
+.footer_color {
+  background-color: #1a1919;
+}
+
+.footer_container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icons_container {
+  padding-top: 5rem;
+}
+
+.icons_resize {
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: all ease-in .3s;
+}
+
+.icons_resize:hover {
+padding: 1rem;
+}
+
+.logo_resize {
+  width: 400px;
+  border-style: solid;
+}
+
+.footer_copyright {
+}
+
+.copyright {
+  font-family: urbanist;
+  font-weight: 100;
+  font-size: 2rem;
+  color: aliceblue;
+  margin: 0;
+  text-align: center;
+}
+
+.copyright2 {
+  font-family: urbanist;
+  font-weight: 200;
+  font-size: 1rem;
+  color: aliceblue;
+  margin: 5px;
+  text-align: center;
+}
